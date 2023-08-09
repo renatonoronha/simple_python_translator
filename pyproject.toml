@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "translator_with_tkinter"
+version = "0.1.0"
+description = ""
+authors = ["Renato Noronha <132279548+renatonoronha@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+translate = "^3.6.1"
+ttkthemes = "^3.2.2"
+ttkbootstrap = "^1.10.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pygubu-designer = "^0.36"
+cx-freeze = "^6.15.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
